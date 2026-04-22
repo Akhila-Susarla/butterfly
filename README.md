@@ -2,11 +2,12 @@
 
 # Butterfly
 
-<img src="https://img.shields.io/badge/Unity-2019.2.9f1-000000?style=for-the-badge&logo=unity&logoColor=white" />
-<img src="https://img.shields.io/badge/C%23-Scripts-239120?style=for-the-badge&logo=csharp&logoColor=white" />
-<img src="https://img.shields.io/badge/Vuforia-AR-E05A22?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Platform-Mobile-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
-<img src="https://img.shields.io/badge/Type-AR%20Animation-FF6B6B?style=for-the-badge" />
+![Unity](https://img.shields.io/badge/Unity-2019.2.9f1-000000?style=for-the-badge&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-Scripts-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![Vuforia](https://img.shields.io/badge/Vuforia-AR-E05A22?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Mobile-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Type](https://img.shields.io/badge/Type-AR%20Animation-FF6B6B?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)
 
 <br/>
 
@@ -18,9 +19,7 @@
 
 ## Overview
 
-A compact AR demo built with **Vuforia** where a fully animated butterfly is anchored in augmented reality. When the device camera detects the target, the butterfly spawns and its wing animation plays continuously. A `Rotation.cs` script handles the idle floating motion.
-
-Built during an undergraduate AR/VR course as an introduction to working with animated 3D assets inside AR scenes.
+A compact AR demo exploring animated 3D asset integration with Vuforia. When the device camera detects the target marker, a fully animated butterfly spawns in augmented reality with continuous wing flapping. A custom `Rotation.cs` script handles the idle floating motion, demonstrating how to combine Vuforia tracking with character animation.
 
 ---
 
@@ -39,13 +38,13 @@ Built during an undergraduate AR/VR course as an introduction to working with an
 | Tool | Purpose |
 |---|---|
 | Unity 2019.2.9f1 | Engine |
-| Vuforia Engine | AR tracking |
+| Vuforia Engine | AR tracking & image target detection |
 | C# (`Rotation.cs`) | Idle rotation / floating animation |
 
 ---
 
 <div align="center">
 
-Built by [Akhila Susarla](https://github.com/Akhila-Susarla) · Undergrad AR/VR Course
+Built by [Akhila Susarla](https://github.com/Akhila-Susarla)
 
 </div>
